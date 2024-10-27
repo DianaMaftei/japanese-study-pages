@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/japanese-study-pages/static/css/main.f855e6bc.css",
+    "main.js": "/japanese-study-pages/static/js/main.f11af20b.js",
+    "static/js/453.1e7e49c5.chunk.js": "/japanese-study-pages/static/js/453.1e7e49c5.chunk.js",
+    "index.html": "/japanese-study-pages/index.html",
+    "main.f855e6bc.css.map": "/japanese-study-pages/static/css/main.f855e6bc.css.map",
+    "main.f11af20b.js.map": "/japanese-study-pages/static/js/main.f11af20b.js.map",
+    "453.1e7e49c5.chunk.js.map": "/japanese-study-pages/static/js/453.1e7e49c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f11af20b.js"
+  ]
+}
