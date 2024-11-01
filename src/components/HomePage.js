@@ -8,11 +8,8 @@ function HomePage() {
     const loadPages = async () => {
       const context = require.context('../../public/data', false, /\.json$/);
       const pages = context.keys().map((key) => {
-        // Extract the file name without extension
         const fileName = key.slice(2, -5);
-        // Assuming the file name format is 'pageX.json' where X is the ID
-        const id = fileName.replace('page', '');
-        return { id, title: `Page ${id}` };
+        return { id: fileName, title: `Lesson for ${fileName}` };
       });
       setPages(pages);
     };
