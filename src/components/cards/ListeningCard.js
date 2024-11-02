@@ -3,78 +3,47 @@ import {
     Box,
     Card,
     CardContent,
-    Typography,
-    Button,
-    IconButton,
-    List,
-    ListItem
+    Typography
 } from '@mui/material';
-import {
-    VolumeUp,
-    CheckCircle,
-    Cancel
-} from '@mui/icons-material';
 
-const ListeningCard = () => {
-    const [isPlaying, setIsPlaying] = useState(false);
-    const [showAnswer, setShowAnswer] = useState(false);
+const ListeningCard = ({ song }) => {
+    const [showTranslation, setShowTranslation] = useState(false);
 
-    const audioExample = {
-        transcript: 'すみません、駅はどこですか？',
-        translation: 'Excuse me, where is the station?',
-        options: ['Where is the hospital?', 'Where is the station?', 'Where is the store?', 'Where is the school?'],
-        correct: 1
+    const renderLyrics = (lyrics) => {
+        return lyrics.split('\n').map((line, index) => (
+            <Typography key={index} variant="body1" gutterBottom>
+                {line}
+            </Typography>
+        ));
     };
 
     return (
         <Card>
             <CardContent>
-                <Box textAlign="center" mb={3}>
-                    <IconButton
-                        onClick={() => setIsPlaying(!isPlaying)}
-                        size="large"
-                        color="primary"
-                    >
-                        <VolumeUp />
-                    </IconButton>
+                <Typography variant="h6" gutterBottom>
+                    {song.song_lyrics.song_title}
+                </Typography>
+                <Typography variant="body2" color="textSecondary" gutterBottom>
+                    {song.style}
+                </Typography>
+                {song.id.map((songId, index) => {
+                    const audioUrl = `https://cdn1.suno.ai/${songId}.mp3`;
+                    const thumbnailUrl = `https://cdn2.suno.ai/image_${songId}.jpeg`;
 
-                    <Box mb={3}>
-                        <Typography variant="h6" gutterBottom>
-                            Choose the correct translation:
-                        </Typography>
-                        <List>
-                            {audioExample.options.map((option, idx) => (
-                                <ListItem key={idx}>
-                                    <Button
-                                        variant="outlined"
-                                        fullWidth
-                                        onClick={() => setShowAnswer(true)}
-                                        startIcon={showAnswer && (
-                                            idx === audioExample.correct ?
-                                                <CheckCircle color="success" /> :
-                                                <Cancel color="error" />
-                                        )}
-                                        sx={{
-                                            bgcolor: showAnswer ?
-                                                (idx === audioExample.correct ? 'success.light' : 'error.light')
-                                                : 'inherit'
-                                        }}
-                                    >
-                                        {option}
-                                    </Button>
-                                </ListItem>
-                            ))}
-                        </List>
+                    return (
+                        <Box key={index} display="flex" alignItems="center" mb={3}>
+                            <img src={thumbnailUrl} alt="Song Thumbnail" style={{ width: '100px', height: '100px', marginRight: '10px', objectFit: 'cover' }} />
+                            <audio src={audioUrl} controls style={{ flex: 1, height: '50px' }} />
+                        </Box>
+                    );
+                })}
+                <Box mb={3}>
+                    <Box mb={2} onClick={() => setShowTranslation(!showTranslation)} sx={{ cursor: 'pointer' }}>
+                        {renderLyrics(song.song_lyrics.lyrics_japanese)}
                     </Box>
-
-                    {showAnswer && (
-                        <Box textAlign="left">
-                            <Typography variant="body1" gutterBottom>
-                                <strong>Transcript:</strong> {audioExample.transcript}
-                            </Typography>
-                            <Typography variant="body1">
-                                <strong>Translation:</strong> {audioExample.translation}
-                            </Typography>
+                    {showTranslation && (
+                        <Box mb={2}>
+                            {renderLyrics(song.song_lyrics.lyrics_english_translation)}
                         </Box>
                     )}
                 </Box>

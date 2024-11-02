@@ -75,10 +75,10 @@ const JapaneseLearningApp = () => {
                     {currentTab === 2 && <GrammarCard grammarInfo={pageData.grammar_info}/>}
                 </Box>
                 <Box role="tabpanel" hidden={currentTab !== 3}>
-                    {currentTab === 3 && <ReadingCard reading={pageData.reading} />}
+                    {currentTab === 3 && <ReadingCard passage={pageData.short_text_with_quiz} />}
                 </Box>
                 <Box role="tabpanel" hidden={currentTab !== 4}>
-                    {currentTab === 4 && <ListeningCard listening={pageData.listening} />}
+                    {currentTab === 4 && <ListeningCard song={pageData.song} />}
                 </Box>
             </Box>
         </ThemeProvider>

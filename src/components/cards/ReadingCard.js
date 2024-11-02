@@ -8,67 +8,69 @@ import {
     Grid
 } from '@mui/material';
 
-const ReadingCard = () => {
+const ReadingCard = ({ passage }) => {
     const [showTranslation, setShowTranslation] = useState(false);
+    const [selectedOptions, setSelectedOptions] = useState({});
 
-    const passage = {
-        title: '私の家族',
-        text: '私の家族は4人です。父と母と妹と私です。父は会社員で、母は教師です。妹は高校生です。',
-        translation: 'My family has 4 people. There\'s my father, mother, younger sister, and me. My father is a company employee, and my mother is a teacher. My younger sister is a high school student.',
-        questions: [
-            {
-                question: '家族は何人ですか？',
-                options: ['3人', '4人', '5人', '6人'],
-                correct: 1
-            }
-        ]
+    const handleOptionClick = (questionIndex, optionIndex, isCorrect) => {
+        setSelectedOptions({
+            ...selectedOptions,
+            [questionIndex]: { optionIndex, isCorrect }
+        });
+    };
+
+    const renderTextWithLineBreaks = (text) => {
+        return text.split('\n\n').map((segment, index) => (
+            <Typography key={index} variant="body1" color="text.secondary" paragraph sx={{ mb: 2 }}>
+                {segment}
+            </Typography>
+        ));
     };
 
     return (
-        <Card>
+        <Card sx={{ mb: 4, p: 2, boxShadow: 3 }}>
             <CardContent>
-                <Typography variant="h5" gutterBottom>
-                    {passage.title}
-                </Typography>
-                <Typography variant="body1" paragraph>
-                    {passage.text}
+                <Typography variant="h5" gutterBottom sx={{ mb: 2 }}>
+                    {renderTextWithLineBreaks(passage.text_japanese)}
                 </Typography>
                 <Button
-                    variant="outlined"
+                    variant="contained"
+                    color="primary"
                     onClick={() => setShowTranslation(!showTranslation)}
                     sx={{ mb: 2 }}
                 >
                     {showTranslation ? 'Hide' : 'Show'} Translation
                 </Button>
-                {showTranslation && (
-                    <Typography variant="body2" color="text.secondary" paragraph>
-                        {passage.translation}
-                    </Typography>
-                )}
-                <Typography variant="h6" gutterBottom>
+                {showTranslation && renderTextWithLineBreaks(passage.text_english)}
+                <Typography variant="h6" gutterBottom sx={{ mb: 2 }}>
                     Comprehension Questions:
                 </Typography>
-                {passage.questions.map((q, idx) => (
-                    <Box key={idx} mb={2}>
-                        <Typography variant="body1" gutterBottom>
-                            {q.question}
+                {passage.reading_comprehension_quiz_in_japanese.map((quiz, questionIndex) => (
+                    <Box mb={3} key={questionIndex} sx={{ p: 2, backgroundColor: '#f9f9f9', borderRadius: 2 }}>
+                        <Typography variant="body1" gutterBottom sx={{ mb: 1 }}>
+                            {quiz.question}
                         </Typography>
-                        <Grid container spacing={1}>
-                            {q.options.map((option, i) => (
-                                <Grid item xs={6} key={i}>
-                                    <Button
-                                        variant="outlined"
-                                        fullWidth
-                                        sx={{
-                                            '&:hover': {
-                                                bgcolor: i === q.correct ? 'success.light' : 'error.light'
-                                            }
-                                        }}
-                                    >
-                                        {option}
-                                    </Button>
-                                </Grid>
-                            ))}
+                        <Grid container spacing={2}>
+                            {quiz.options.map((option, optionIndex) => {
+                                const isSelected = selectedOptions[questionIndex]?.optionIndex === optionIndex;
+                                const isCorrect = selectedOptions[questionIndex]?.isCorrect;
+                                return (
+                                    <Grid item xs={12} sm={6} key={optionIndex}>
+                                        <Button
+                                            variant="outlined"
+                                            fullWidth
+                                            sx={{
+                                                textTransform: 'none',
+                                                backgroundColor: isSelected ? (isCorrect ? 'green' : 'red') : 'inherit',
+                                                color: isSelected ? 'white' : 'inherit'
+                                            }}
+                                            onClick={() => handleOptionClick(questionIndex, optionIndex, option.isCorrect)}
+                                        >
+                                            {option.text}
+                                        </Button>
+                                    </Grid>
+                                );
+                            })}
                         </Grid>
                     </Box>
                 ))}
