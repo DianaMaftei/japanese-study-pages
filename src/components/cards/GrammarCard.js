@@ -43,7 +43,7 @@ const GrammarCard = ({ grammarInfo }) => {
     const handleImageClick = (imageName) => {
         const timestampMatch = imageName.match(/_(\d+)-(\d+)-(\d+)_/);
         if (timestampMatch) {
-            const [_, hours, minutes, seconds] = timestampMatch;
+            const [, hours, minutes, seconds] = timestampMatch;
             const timestamp = parseInt(hours) * 3600 + parseInt(minutes) * 60 + parseInt(seconds);
             const youtubeUrl = `https://www.youtube.com/watch?v=VrscRD5y2gk&t=${timestamp}s`;
             window.open(youtubeUrl, '_blank');
