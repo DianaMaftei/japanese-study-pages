@@ -9,7 +9,7 @@ import {
     Tab
 } from '@mui/material';
 import { theme } from '../style/theme';
-import KanjiCard from './cards/KanjiCard';
+import KanjiCard from './cards/kanji/KanjiCard';
 import VocabularyCard from './cards/VocabularyCard';
 import GrammarCard from './cards/GrammarCard';
 import ReadingCard from './cards/ReadingCard';
@@ -41,8 +41,6 @@ const JapaneseLearningApp = () => {
     // Show loading message if data has not loaded yet
     if (!pageData) return <div>Loading...</div>;
 
-    console.log(pageData);
-
     return (
         <ThemeProvider theme={theme}>
             <Box sx={{ maxWidth: 800, mx: 'auto', p: 3 }}>
@@ -66,10 +64,10 @@ const JapaneseLearningApp = () => {
                 </Box>
 
                 <Box role="tabpanel" hidden={currentTab !== 0}>
-                    {currentTab === 0 && <KanjiCard kanji={pageData.kanji} />}
+                    {currentTab === 0 && <KanjiCard kanjiInfo={pageData.kanji_info}/>}
                 </Box>
                 <Box role="tabpanel" hidden={currentTab !== 1}>
-                    {currentTab === 1 && <VocabularyCard vocabulary={pageData.vocabulary} />}
+                    {currentTab === 1 && <VocabularyCard vocabularyInfo={pageData.vocabulary_info} />}
                 </Box>
                 <Box role="tabpanel" hidden={currentTab !== 2}>
                     {currentTab === 2 && <GrammarCard grammarInfo={pageData.grammar_info}/>}
