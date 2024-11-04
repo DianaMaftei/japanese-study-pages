@@ -1,13 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
-    Box,
-    Card,
-    CardContent,
-    Typography,
-    List,
-    ListItem,
-    ListItemText
-} from '@mui/material';
+import { Box, Card, CardContent, Typography, List, ListItem, ListItemText, Grid } from '@mui/material';
 import KanjiStrokeDiagram from './KanjiStrokeDiagram';
 import './KanjiCard.css';
 
@@ -40,8 +32,8 @@ const KanjiCard = ({ kanjiInfo }) => {
                 return (
                     <Card key={index} sx={{ mb: 3, border: '1px solid #ccc', padding: 2, backgroundColor: '#f9f9f9' }}>
                         <CardContent>
-                            <Box display="flex">
-                                <Box flex="1" textAlign="center">
+                            <Grid container spacing={2}>
+                                <Grid item xs={12} sm={4} textAlign="center">
                                     {!isRendered && (
                                         <KanjiStrokeDiagram character={kanji} id={"kanji-draw-" + kanji} />
                                     )}
@@ -63,8 +55,8 @@ const KanjiCard = ({ kanjiInfo }) => {
                                             </Box>
                                         </Box>
                                     )}
-                                </Box>
-                                <Box flex="2" textAlign="left" ml={3}>
+                                </Grid>
+                                <Grid item xs={12} sm={8}>
                                     <Typography variant="body1" gutterBottom>
                                         <strong>Meaning:</strong> {meaning}
                                     </Typography>
@@ -91,8 +83,8 @@ const KanjiCard = ({ kanjiInfo }) => {
                                             </ListItem>
                                         ))}
                                     </List>
-                                </Box>
-                            </Box>
+                                </Grid>
+                            </Grid>
                         </CardContent>
                     </Card>
                 );

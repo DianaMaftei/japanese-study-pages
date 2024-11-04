@@ -1,13 +1,7 @@
-// App.js
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
-import {
-    Box,
-    Typography,
-    Tabs,
-    Tab
-} from '@mui/material';
+import { Box, Typography, Tabs, Tab, Grid, Button } from '@mui/material';
 import { theme } from '../style/theme';
 import KanjiCard from './cards/kanji/KanjiCard';
 import VocabularyCard from './cards/VocabularyCard';
@@ -15,16 +9,16 @@ import GrammarCard from './cards/GrammarCard';
 import ReadingCard from './cards/ReadingCard';
 import ListeningCard from './cards/ListeningCard';
 
-const JapaneseLearningApp = () => {
+const Lesson = () => {
     const [currentTab, setCurrentTab] = useState(0);
     const [pageData, setPageData] = useState(null);
     const { id } = useParams();
+    const navigate = useNavigate();
 
     const handleTabChange = (event, newValue) => {
         setCurrentTab(newValue);
     };
 
-    // Load page data based on the `id` parameter from the URL
     useEffect(() => {
         const loadPageData = async () => {
             try {
@@ -38,12 +32,14 @@ const JapaneseLearningApp = () => {
         loadPageData();
     }, [id]);
 
-    // Show loading message if data has not loaded yet
     if (!pageData) return <div>Loading...</div>;
 
     return (
         <ThemeProvider theme={theme}>
             <Box sx={{ maxWidth: 800, mx: 'auto', p: 3 }}>
+                <Button variant="contained" color="primary" onClick={() => navigate('/')}>
+                    Back to Home
+                </Button>
                 <Typography variant="h3" component="h1" gutterBottom textAlign="center">
                     Daily Lesson - {id}
                 </Typography>
@@ -63,24 +59,36 @@ const JapaneseLearningApp = () => {
                     </Tabs>
                 </Box>
 
-                <Box role="tabpanel" hidden={currentTab !== 0}>
-                    {currentTab === 0 && <KanjiCard kanjiInfo={pageData.kanji_info}/>}
-                </Box>
-                <Box role="tabpanel" hidden={currentTab !== 1}>
-                    {currentTab === 1 && <VocabularyCard vocabularyInfo={pageData.vocabulary_info} />}
-                </Box>
-                <Box role="tabpanel" hidden={currentTab !== 2}>
-                    {currentTab === 2 && <GrammarCard grammarInfo={pageData.grammar_info}/>}
-                </Box>
-                <Box role="tabpanel" hidden={currentTab !== 3}>
-                    {currentTab === 3 && <ReadingCard passage={pageData.short_text_with_quiz} />}
-                </Box>
-                <Box role="tabpanel" hidden={currentTab !== 4}>
-                    {currentTab === 4 && <ListeningCard song={pageData.song} />}
-                </Box>
+                <Grid container spacing={2}>
+                    <Grid item xs={12}>
+                        <Box role="tabpanel" hidden={currentTab !== 0}>
+                            {currentTab === 0 && <KanjiCard kanjiInfo={pageData.kanji_info} />}
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Box role="tabpanel" hidden={currentTab !== 1}>
+                            {currentTab === 1 && <VocabularyCard vocabularyInfo={pageData.vocabulary_info} />}
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Box role="tabpanel" hidden={currentTab !== 2}>
+                            {currentTab === 2 && <GrammarCard grammarInfo={pageData.grammar_info} />}
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Box role="tabpanel" hidden={currentTab !== 3}>
+                            {currentTab === 3 && <ReadingCard passage={pageData.short_text_with_quiz} />}
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Box role="tabpanel" hidden={currentTab !== 4}>
+                            {currentTab === 4 && <ListeningCard song={pageData.song} />}
+                        </Box>
+                    </Grid>
+                </Grid>
             </Box>
         </ThemeProvider>
     );
 };
 
-export default JapaneseLearningApp;
+export default Lesson;

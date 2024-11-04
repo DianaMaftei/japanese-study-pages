@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Box, Typography, List, ListItem, ListItemText, Paper } from '@mui/material';
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from '../style/theme';
 
 function HomePage() {
   const [pages, setPages] = useState([]);
@@ -18,16 +21,22 @@ function HomePage() {
   }, []);
 
   return (
-    <div>
-      <h1>Available Pages</h1>
-      <ul>
-        {pages.map(page => (
-          <li key={page.id}>
-            <Link to={`/page/${page.id}`}>{page.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+      <ThemeProvider theme={theme}>
+        <Box sx={{ maxWidth: 800, mx: 'auto', p: 3 }}>
+          <Typography variant="h3" component="h1" gutterBottom textAlign="center">
+            Japanese Daily Lessons
+          </Typography>
+          <Paper elevation={3} sx={{ p: 2 }}>
+            <List>
+              {pages.map(page => (
+                  <ListItem key={page.id} button component={Link} to={`/page/${page.id}`}>
+                    <ListItemText primary={page.title} />
+                  </ListItem>
+              ))}
+            </List>
+          </Paper>
+        </Box>
+      </ThemeProvider>
   );
 }
 
