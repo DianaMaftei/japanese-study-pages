@@ -31,7 +31,7 @@ const VocabularyCard = ({ vocabularyInfo }) => {
             <CardContent>
                 <Box textAlign="center">
                     <Box display="flex" justifyContent="center" alignItems="center">
-                        <IconButton onClick={() => handleTextToSpeech(currentVocabulary.Kanji)}>
+                        <IconButton onClick={() => handleTextToSpeech(currentVocabulary.kanji)}>
                             <VolumeUp />
                         </IconButton>
                         <Typography variant="h4" gutterBottom>
