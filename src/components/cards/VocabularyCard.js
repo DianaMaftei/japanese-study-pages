@@ -14,53 +14,7 @@ import {
     NavigateNext,
     VolumeUp
 } from '@mui/icons-material';
-
-class JapaneseSpeechSynthesizer {
-    constructor() {
-        this.synth = window.speechSynthesis;
-        this.voices = [];
-
-        if (speechSynthesis.onvoiceschanged !== undefined) {
-            speechSynthesis.onvoiceschanged = () => {
-                this.voices = this.getJapaneseVoices();
-            };
-        }
-
-        this.voices = this.getJapaneseVoices();
-    }
-
-    getJapaneseVoices() {
-        return window.speechSynthesis.getVoices().filter(voice =>
-            voice.lang.startsWith('ja') || voice.lang.startsWith('jp')
-        );
-    }
-
-    speak(text, onError) {
-        this.synth.cancel();
-
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = 0.9;
-        utterance.pitch = 1.1;
-        utterance.volume = 1.0;
-
-        if (this.voices.length > 0) {
-            const preferredVoice = this.voices.find(voice =>
-                voice.name.includes('Microsoft') || voice.name.includes('Google')
-            ) || this.voices[0];
-
-            utterance.voice = preferredVoice;
-        }
-
-        utterance.lang = 'ja-JP';
-        utterance.onerror = (event) => onError?.(event);
-
-        this.synth.speak(utterance);
-    }
-
-    stop() {
-        this.synth.cancel();
-    }
-}
+import JapaneseSpeechSynthesizer from '../../utils/JapaneseSpeechSynthesizer';
 
 const VocabularyCard = ({ vocabularyInfo }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -71,22 +25,23 @@ const VocabularyCard = ({ vocabularyInfo }) => {
     const currentVocabulary = currentVocabularyInfo.vocabulary;
     const currentSentences = currentVocabularyInfo.sentences;
 
-    // Initialize speech synthesizer
     useEffect(() => {
         const newSpeaker = new JapaneseSpeechSynthesizer();
         setSpeaker(newSpeaker);
 
-        // Cleanup function
         return () => {
             newSpeaker.stop();
         };
-    }, []); // Empty dependency array since we only want to initialize once
+    }, []);
 
     const handleTextToSpeech = (text) => {
         if (speaker) {
+            speaker.stop(); // Stop any ongoing speech synthesis
             speaker.speak(text, (error) => {
-                setErrorMessage('Speech synthesis error occurred');
-                console.error('Speech error:', error);
+                if (error.error !== 'interrupted') {
+                    setErrorMessage('Speech synthesis error occurred');
+                    console.error('Speech error:', error);
+                }
             });
         }
     };
@@ -107,6 +62,17 @@ const VocabularyCard = ({ vocabularyInfo }) => {
         <Card>
             <CardContent>
                 <Box textAlign="center">
+                    <Box display="flex" justifyContent="space-between" alignItems="center">
+                        <IconButton onClick={() => handleNavigate('prev')}>
+                            <NavigateBefore />
+                        </IconButton>
+                        <Typography variant="body2" color="text.secondary">
+                            {currentIndex + 1} / {vocabularyInfo.length}
+                        </Typography>
+                        <IconButton onClick={() => handleNavigate('next')}>
+                            <NavigateNext />
+                        </IconButton>
+                    </Box>
                     <Box display="flex" justifyContent="center" alignItems="center">
                         <IconButton onClick={() => handleTextToSpeech(currentVocabulary.kanji)}>
                             <VolumeUp />

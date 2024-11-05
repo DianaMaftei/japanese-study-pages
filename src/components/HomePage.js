@@ -13,7 +13,7 @@ function HomePage() {
       const pages = context.keys().map((key) => {
         const fileName = key.slice(2, -5);
         return { id: fileName, title: `Lesson for ${fileName}` };
-      });
+      }).reverse(); // Reverse the order of the pages
       setPages(pages);
     };
 

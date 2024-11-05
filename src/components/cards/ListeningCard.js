@@ -10,7 +10,7 @@ const ListeningCard = ({ song }) => {
     const [showTranslation, setShowTranslation] = useState(false);
 
     const renderLyrics = (lyrics) => {
-        return lyrics.split('\n').map((line, index) => (
+        return lyrics.split(/(?<=。)|(?<=\.)|\n/).map((line, index) => (
             <Typography key={index} variant="body1" gutterBottom>
                 {line}
             </Typography>
