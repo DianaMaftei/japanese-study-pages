@@ -276,7 +276,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "私は彼が部屋に入るのを見逃しました。",
+          "sentence_english_translation": "I didn't notice him enter the room."
+        },
+        {
+          "sentence_japanese": "彼女は彼がそこにいることに気づきました。",
+          "sentence_english_translation": "She noticed he was there."
+        },
+        {
+          "sentence_japanese": "私は自分が間違っていたことに気づきました。",
+          "sentence_english_translation": "I realized I was wrong."
+        },
+        {
+          "sentence_japanese": "彼は彼女の変化に気づきませんでした。",
+          "sentence_english_translation": "He didn't notice her change."
+        },
+        {
+          "sentence_japanese": "あなたは私の話を聞いていましたか？",
+          "sentence_english_translation": "Did you notice what I was saying?"
+        }
+      ]
     },
     {
       "vocabulary": {
