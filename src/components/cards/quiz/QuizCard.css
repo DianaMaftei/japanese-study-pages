@@ -1,0 +1,85 @@
+/* QuizCard.css */
+
+.quiz-card {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.quiz-card h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quiz-card .quiz-item {
+    margin-bottom: 20px;
+}
+
+.quiz-card .kanji, .quiz-card .vocabulary {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quiz-card .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-card .options label {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.quiz-card .options label:hover {
+    background-color: #f0f0f0;
+}
+
+.quiz-card .options input[type="radio"] {
+    display: none;
+}
+
+.quiz-card .options input[type="radio"]:checked + label {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.quiz-card .options label[style*="color: green"] {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+}
+
+.quiz-card .options label[style*="color: red"] {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+}
+
+.quiz-card button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-card button:hover {
+    background-color: #45a049;
+}
+

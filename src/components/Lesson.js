@@ -8,6 +8,7 @@ import VocabularyCard from './cards/VocabularyCard';
 import GrammarCard from './cards/GrammarCard';
 import ReadingCard from './cards/ReadingCard';
 import ListeningCard from './cards/ListeningCard';
+import QuizCard from "./cards/quiz/QuizCard";
 
 const Lesson = () => {
     const [currentTab, setCurrentTab] = useState(0);
@@ -56,6 +57,7 @@ const Lesson = () => {
                         <Tab label="Grammar" />
                         <Tab label="Reading" />
                         <Tab label="Listening" />
+                        <Tab label="Quiz" />
                     </Tabs>
                 </Box>
 
@@ -83,6 +85,11 @@ const Lesson = () => {
                     <Grid item xs={12}>
                         <Box role="tabpanel" hidden={currentTab !== 4}>
                             {currentTab === 4 && <ListeningCard song={pageData.song} />}
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Box role="tabpanel" hidden={currentTab !== 5}>
+                            {currentTab === 5 && <QuizCard vocabularyInfo={pageData.vocabulary_info} kanjiInfo={pageData.kanji_info} />}
                         </Box>
                     </Grid>
                 </Grid>
