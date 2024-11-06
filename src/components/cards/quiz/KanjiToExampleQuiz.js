@@ -56,6 +56,7 @@ const KanjiToExampleQuiz = ({ kanjiInfo }) => {
                         </div>
                         <div className="options">
                             {options.map((option, idx) => {
+                                // eslint-disable-next-line no-unused-vars
                                 const [kanji, reading, ...meaningParts] = option.split(' ');
                                 const readingText = reading.replace('(', '').replace(')', '');
                                 const meaning = meaningParts.join(' ');
