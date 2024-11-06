@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/japanese-study-pages/static/css/main.974682a7.css",
-    "main.js": "/japanese-study-pages/static/js/main.5755d129.js",
+    "main.js": "/japanese-study-pages/static/js/main.60f43b0d.js",
     "static/js/453.7495fe3a.chunk.js": "/japanese-study-pages/static/js/453.7495fe3a.chunk.js",
     "static/media/ばいい_09-11_19.png": "/japanese-study-pages/static/media/ばいい_09-11_19.74bc1df31725cc497bfa.png",
     "static/media/べつにない_22-52_19.png": "/japanese-study-pages/static/media/べつにない_22-52_19.ac815c8a2fa269eb78dc.png",
@@ -1870,11 +1870,11 @@
     "static/media/ように見える_6-29-47_0.png": "/japanese-study-pages/static/media/ように見える_6-29-47_0.0224c30a18e6e2227879.png",
     "index.html": "/japanese-study-pages/index.html",
     "main.974682a7.css.map": "/japanese-study-pages/static/css/main.974682a7.css.map",
-    "main.5755d129.js.map": "/japanese-study-pages/static/js/main.5755d129.js.map",
+    "main.60f43b0d.js.map": "/japanese-study-pages/static/js/main.60f43b0d.js.map",
     "453.7495fe3a.chunk.js.map": "/japanese-study-pages/static/js/453.7495fe3a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.974682a7.css",
-    "static/js/main.5755d129.js"
+    "static/js/main.60f43b0d.js"
   ]
 }
