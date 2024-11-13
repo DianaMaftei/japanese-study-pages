@@ -1,4 +1,3 @@
-// src/components/cards/GrammarCard.js
 import React, { useState, useEffect } from 'react';
 import {
     Box,
@@ -16,7 +15,6 @@ import { VolumeUp } from '@mui/icons-material';
 import JapaneseSpeechSynthesizer from '../../utils/JapaneseSpeechSynthesizer';
 
 const GrammarCard = ({ grammarInfo }) => {
-    const [visibleTranslationIndex, setVisibleTranslationIndex] = useState(null);
     const [images, setImages] = useState({});
     const [speaker, setSpeaker] = useState(null);
     const [errorMessage, setErrorMessage] = useState('');
@@ -40,10 +38,6 @@ const GrammarCard = ({ grammarInfo }) => {
                 }
             });
         }
-    };
-
-    const handleSentenceClick = (index) => {
-        setVisibleTranslationIndex(index === visibleTranslationIndex ? null : index);
     };
 
     useEffect(() => {
@@ -111,19 +105,11 @@ const GrammarCard = ({ grammarInfo }) => {
                                                 <IconButton onClick={() => handleTextToSpeech(ex.sentence_japanese)}>
                                                     <VolumeUp />
                                                 </IconButton>
-                                                <Typography
-                                                    variant="body1"
-                                                    onClick={() => handleSentenceClick(i)}
-                                                    sx={{ cursor: 'pointer' }}
-                                                >
+                                                <Typography variant="body1">
                                                     {ex.sentence_japanese}
                                                 </Typography>
                                             </Box>
-                                            <Typography
-                                                variant="body2"
-                                                color="text.secondary"
-                                                sx={{ visibility: visibleTranslationIndex === i ? 'visible' : 'hidden' }}
-                                            >
+                                            <Typography variant="body2" color="text.secondary">
                                                 {ex.sentence_english_translation}
                                             </Typography>
                                         </Box>

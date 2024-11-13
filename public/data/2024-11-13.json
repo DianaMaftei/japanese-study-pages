@@ -734,7 +734,74 @@
       ]
     }
   ],
-  "grammar_info": null,
+  "grammar_info": [
+    {
+      "grammar": {
+        "grammar": "向き",
+        "meaning": "suitable for",
+        "seen": false,
+        "update_date": ""
+      },
+      "grammar_sentences": {
+        "grammar_point": "向き",
+        "sentences": [
+          {
+            "sentence_english_translation": "This textbook is suitable for beginners.",
+            "sentence_japanese": "この教科書は初心者向きです。"
+          },
+          {
+            "sentence_english_translation": "That restaurant is perfect for families.",
+            "sentence_japanese": "あのレストランは家族向きです。"
+          },
+          {
+            "sentence_english_translation": "This design is suitable for both men and women.",
+            "sentence_japanese": "このデザインは男性にも女性にも向きです。"
+          },
+          {
+            "sentence_english_translation": "This type of work is not suitable for everyone.",
+            "sentence_japanese": "この仕事は誰にでも向くわけではありません。"
+          },
+          {
+            "sentence_english_translation": "That job is perfect for you, isn't it?",
+            "sentence_japanese": "あの仕事はあなた向きでしょう？"
+          }
+        ]
+      }
+    },
+    {
+      "grammar": {
+        "grammar": "直す",
+        "meaning": "to do something again; to do over",
+        "seen": false,
+        "update_date": ""
+      },
+      "grammar_sentences": {
+        "grammar_point": "直す",
+        "sentences": [
+          {
+            "sentence_english_translation": "I need to redo the experiment because I made a mistake.",
+            "sentence_japanese": "実験を間違えたので、直さなければなりません。"
+          },
+          {
+            "sentence_english_translation": "I'll fix the broken chair.",
+            "sentence_japanese": "壊れた椅子を直します。"
+          },
+          {
+            "sentence_english_translation": "The teacher told me to rewrite my essay.",
+            "sentence_japanese": "先生は作文を書き直すように言いました。"
+          },
+          {
+            "sentence_english_translation": "Please fix the mistake in this sentence.",
+            "sentence_japanese": "この文の誤りを直してください。"
+          },
+          {
+            "sentence_english_translation": "I need to fix my pronunciation.",
+            "sentence_japanese": "発音を直さなければなりません。"
+          }
+        ]
+      }
+    }
+  ],
   "short_text_with_quiz": {
     "text_japanese": "田中さんは、新しい野菜を作る実験をしていました。\n彼は、この実験を成功させれば、世界中の人々に貢献できると信じていました。\n実験は、大きな会場で行われ、たくさんの観客が集まりました。\n田中さんは、実験の結果に満足していました。\n彼は、観客に、記念品として野菜をプレゼントしました。\nその後、田中さんは、会議で実験の結果を発表しました。\n彼は、自分の研究が、世界を変えると確信していました。",
     "text_english": "田中さんは、新しい野菜を作る実験をしていました。\n彼は、この実験を成功させれば、世界中の人々に貢献できると信じていました。\n実験は、大きな会場で行われ、たくさんの観客が集まりました。\n田中さんは、実験の結果に満足していました。\n彼は、観客に、記念品として野菜をプレゼントしました。\nその後、田中さんは、会議で実験の結果を発表しました。\n彼は、自分の研究が、世界を変えると確信していました。",

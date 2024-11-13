@@ -47,7 +47,7 @@ const ReadingCard = ({ passage }) => {
                 </Typography>
                 {passage.reading_comprehension_quiz_in_japanese.map((quiz, questionIndex) => (
                     <Box mb={3} key={questionIndex} sx={{ p: 2, backgroundColor: '#f9f9f9', borderRadius: 2 }}>
-                        <Typography variant="body1" gutterBottom sx={{ mb: 1 }}>
+                        <Typography variant="body1" gutterBottom sx={{ mb: 5 }}>
                             {quiz.question}
                         </Typography>
                         <Grid container spacing={2}>
