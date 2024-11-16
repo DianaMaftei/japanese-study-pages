@@ -4,7 +4,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import { Box, Typography, Tabs, Tab, Grid, Button } from '@mui/material';
 import { theme } from '../style/theme';
 import KanjiCard from './cards/kanji/KanjiCard';
-import VocabularyCard from './cards/VocabularyCard';
+import VocabularyCard from './cards/vocabulary/VocabularyCard';
 import GrammarCard from './cards/GrammarCard';
 import ReadingCard from './cards/ReadingCard';
 import ListeningCard from './cards/ListeningCard';
