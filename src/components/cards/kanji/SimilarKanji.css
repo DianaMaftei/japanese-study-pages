@@ -1,0 +1,35 @@
+.kanji-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .kanji-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px;
+  }
+  
+  .kanji-item:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .kanji-item:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  .kanji-item:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .kanji-meaning {
+    width: 100%;
+    padding: 5px;
+    min-height: 20px;
+  }
