@@ -96,6 +96,15 @@ const GrammarCard = ({ grammarInfo }) => {
                             <Typography variant="body1" gutterBottom>
                                 {grammar.meaning}
                             </Typography>
+                            {imagesForGrammar.length > 0 && (
+                                <Carousel showThumbs={false} showStatus={false} infiniteLoop>
+                                    {imagesForGrammar.map((image, index) => (
+                                        <div key={index} onClick={() => handleImageClick(image)}>
+                                            <img src={image} alt={folderName} style={{ width: '100%', cursor: 'pointer' }} />
+                                        </div>
+                                    ))}
+                                </Carousel>
+                            )}
                             {grammar_sentences && (
                                 <Paper elevation={2} sx={{ p: 2, bgcolor: 'grey.100' }}>
                                     <Typography variant="h6" gutterBottom>Examples:</Typography>
@@ -115,15 +124,6 @@ const GrammarCard = ({ grammarInfo }) => {
                                         </Box>
                                     ))}
                                 </Paper>
-                            )}
-                            {imagesForGrammar.length > 0 && (
-                                <Carousel showThumbs={false} showStatus={false} infiniteLoop>
-                                    {imagesForGrammar.map((image, index) => (
-                                        <div key={index} onClick={() => handleImageClick(image)}>
-                                            <img src={image} alt={folderName} style={{ width: '100%', cursor: 'pointer' }} />
-                                        </div>
-                                    ))}
-                                </Carousel>
                             )}
                         </Box>
                     );

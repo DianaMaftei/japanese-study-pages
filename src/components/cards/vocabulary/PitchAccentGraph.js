@@ -2,16 +2,19 @@ import React, {useEffect, useState} from 'react';
 
 const splitIntoKana = (text) => {
     return Array.from(text).map(char => char);
-  };
-  
+};
+
 const flattenPitchData = (pitchData) => {
-return pitchData.flatMap(mora => {
-    const kanaArray = splitIntoKana(mora.part);
-    return kanaArray.map(kana => ({
-    part: kana,
-    high: mora.high
-    }));
-});
+    if (!pitchData) {
+        return [];
+    }
+    return pitchData.flatMap(mora => {
+        const kanaArray = splitIntoKana(mora.part);
+        return kanaArray.map(kana => ({
+            part: kana,
+            high: mora.high
+        }));
+    });
 };
 
 const PitchAccentGraph = ({vocabularyWord}) => {

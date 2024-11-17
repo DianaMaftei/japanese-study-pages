@@ -3,15 +3,14 @@ import {
     Box,
     Card,
     CardContent,
-    Typography
+    Typography,
+    Grid
 } from '@mui/material';
 
 const ListeningCard = ({ song }) => {
-    const [showTranslation, setShowTranslation] = useState(false);
-
-    const renderLyrics = (lyrics) => {
+    const renderLyrics = (lyrics, isTranslation = false) => {
         return lyrics.split(/(?<=。)|(?<=\.)|\n/).map((line, index) => (
-            <Typography key={index} variant="body1" gutterBottom>
+            <Typography key={index} variant={isTranslation ? "body2" : "body1"} gutterBottom align="left">
                 {line}
             </Typography>
         ));
@@ -37,16 +36,18 @@ const ListeningCard = ({ song }) => {
                         </Box>
                     );
                 })}
-                <Box mb={3}>
-                    <Box mb={2} onClick={() => setShowTranslation(!showTranslation)} sx={{ cursor: 'pointer' }}>
-                        {renderLyrics(song.song_lyrics.lyrics_japanese)}
-                    </Box>
-                    {showTranslation && (
-                        <Box mb={2}>
-                            {renderLyrics(song.song_lyrics.lyrics_english_translation)}
+                <Grid container spacing={2}>
+                    <Grid item xs={7}>
+                        <Box mb={3} border={1} borderColor="grey.400" p={2}>
+                            {renderLyrics(song.song_lyrics.lyrics_japanese)}
                         </Box>
-                    )}
-                </Box>
+                    </Grid>
+                    <Grid item xs={5}>
+                        <Box mb={3} border={1} borderColor="grey.400" p={2}>
+                            {renderLyrics(song.song_lyrics.lyrics_english_translation, true)}
+                        </Box>
+                    </Grid>
+                </Grid>
             </CardContent>
         </Card>
     );
