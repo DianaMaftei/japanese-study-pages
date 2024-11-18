@@ -737,7 +737,7 @@
   "grammar_info": [
     {
       "grammar": {
-        "grammar": "的（てき）",
+        "grammar": "的",
         "meaning": "change noun into na-adjective or adverb",
         "seen": false,
         "update_date": ""
@@ -770,7 +770,7 @@
     },
     {
       "grammar": {
-        "grammar": "に比べて（にくらべて）",
+        "grammar": "に比べて",
         "meaning": "compared to; in comparison to ~",
         "seen": false,
         "update_date": ""

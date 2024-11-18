@@ -737,7 +737,7 @@
   "grammar_info": [
     {
       "grammar": {
-        "grammar": "に慣れる（になれる）",
+        "grammar": "に慣れる",
         "meaning": "to be used to something",
         "seen": false,
         "update_date": ""
@@ -770,7 +770,7 @@
     },
     {
       "grammar": {
-        "grammar": "めったに～ない",
+        "grammar": "めったに-ない",
         "meaning": "hardly; rarely; seldom",
         "seen": false,
         "update_date": ""
@@ -914,8 +914,11 @@
     ]
   },
   "song": {
-    "id": null,
-    "style": "",
+    "id": [
+      "bb6ce5ce-7406-455c-adbd-a483be151aff",
+      "8e3072fc-1549-41d5-8641-06f846d56370"
+    ],
+    "style": "Soul, Gospel, Powerful, female vocals",
     "song_lyrics": {
       "lyrics_japanese": "学校はもう卒業　もう大人になった\n新しい感覚感じる　違う感じ\n学校の戦いには慣れたけど　これはまた違う\nこれまでの成長に感謝を感じる\n\nたとえ辛い戦いがあっても\n全力で戦う　それが理想\n成功を想像して　投票に臨む\n成績が成長を表すといいな\n\n感心と感謝が入り混じる気持ち\n支えてくれたみんなに\nめったにこんな感動を感じなかった\nこの感じ　これが成長\n\n思想は構成され　考えは明確\n達成感を感じる今\n感動を覚えるほどの進歩\nこれからも戦い続ける　成長は止まらない\n\nどんな困難があっても　この成功感は新しい\n成功と努力の連想は明確\nもう大人だけど　世界は大きく　理想も大きい\n賛成　これからも戦う　未来は自分のものだから\n\n感謝の気持ち胸に　新たに始める\nこの成長　この感じは　私の指針\n理想に向かって頑張る\n成功を願って　全てに挑む",
       "lyrics_english_translation": "The school days are over, now I'm an adult\nI feel a new sensation, a different feeling\nThough I'm used to the school battles, this is new\nI feel gratitude for my growth so far\n\nEven if there are difficult battles ahead\nI'll fight with all my might, that's my ideal\nImagining success, I'll face the voting\nHoping my results show my growth\n\nMy feelings are a mix of admiration and thanks\nFor those who helped me along the way\nI hardly ever felt such deep emotion before\nThis feeling, this is my growth\n\nMy thoughts are organized, my ideas are clear\nI feel a sense of accomplishment now\nI'm deeply moved by my progress\nI'll keep fighting, my growth never ends\n\nNo matter the difficulty, this feeling of success is new\nThe association between success and effort is clear\nThough I'm an adult now, the world is huge, and so are my ideals\nI agree to fight on, for my future is my own\n\nWith my thanks in my heart, I start anew\nThis growth, this feeling is my guiding star\nI'll strive towards my ideals\nHoping for success in everything I do",

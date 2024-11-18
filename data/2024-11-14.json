@@ -146,14 +146,34 @@
     },
     {
       "vocabulary": {
-        "kanji": "席（せき）",
+        "kanji": "席",
         "reading": "せき",
         "meaning": "seat",
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
-    },
+      "sentences": [
+        {
+          "sentence_japanese": "窓側の席がいいです。",
+          "sentence_english_translation": "I want a seat by the window."
+        },
+        {
+          "sentence_japanese": "会議の席には、社長と部長がいます。",
+          "sentence_english_translation": "The president and the department head are at the meeting."
+        },
+        {
+          "sentence_japanese": "あの席は空いていますか。",
+          "sentence_english_translation": "Is that seat empty?"
+        },
+        {
+          "sentence_japanese": "私の席は、入り口のそばです。",
+          "sentence_english_translation": "My seat is near the entrance."
+        },
+        {
+          "sentence_japanese": "電車の席に座ることができました。",
+          "sentence_english_translation": "I was able to get a seat on the train."
+        }
+      ]    },
     {
       "vocabulary": {
         "kanji": "見当",
@@ -716,7 +736,7 @@
   "grammar_info": [
     {
       "grammar": {
-        "grammar": "てもしょうがない / てもしかたがない",
+        "grammar": "てもしょうがない",
         "meaning": "there's no point to~; it's no use to~; it cannot be helped",
         "seen": false,
         "update_date": ""
@@ -749,7 +769,7 @@
     },
     {
       "grammar": {
-        "grammar": "一体（いったい）",
+        "grammar": "一体",
         "meaning": "emphasis; what on earth; what in the world",
         "seen": false,
         "update_date": ""
