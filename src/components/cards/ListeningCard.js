@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
     Box,
     Card,
@@ -7,7 +7,7 @@ import {
     Grid
 } from '@mui/material';
 
-const ListeningCard = ({ song }) => {
+const ListeningCard = ({song}) => {
     const renderLyrics = (lyrics, isTranslation = false) => {
         return lyrics.split(/(?<=。)|(?<=\.)|\n/).map((line, index) => (
             <Typography key={index} variant={isTranslation ? "body2" : "body1"} gutterBottom align="left">
@@ -31,8 +31,9 @@ const ListeningCard = ({ song }) => {
 
                     return (
                         <Box key={index} display="flex" alignItems="center" mb={3}>
-                            <img src={thumbnailUrl} alt="Song Thumbnail" style={{ width: '100px', height: '100px', marginRight: '10px', objectFit: 'cover' }} />
-                            <audio src={audioUrl} controls style={{ flex: 1, height: '50px' }} />
+                            <img src={thumbnailUrl} alt="Song Thumbnail"
+                                 style={{width: '100px', height: '100px', marginRight: '10px', objectFit: 'cover'}}/>
+                            <audio src={audioUrl} controls style={{flex: 1, height: '50px'}}/>
                         </Box>
                     );
                 })}

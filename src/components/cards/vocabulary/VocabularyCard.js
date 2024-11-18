@@ -78,7 +78,7 @@ const VocabularyCard = ({vocabularyInfo}) => {
                     <Typography variant="h6" gutterBottom>
                         {currentVocabulary.meaning}
                     </Typography>
-                    {currentSentences.map((sentence, index) => (
+                    {currentSentences && currentSentences.map((sentence, index) => (
                         <Paper key={index} elevation={2} sx={{p: 2, my: 2, bgcolor: 'grey.100'}}>
                             <Box display="flex" alignItems="center">
                                 <IconButton onClick={() => handleTextToSpeech(sentence.sentence_japanese)}>

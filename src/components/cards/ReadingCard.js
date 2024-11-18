@@ -20,7 +20,7 @@ const ReadingCard = ({ passage }) => {
     };
 
     const renderTextWithLineBreaks = (text) => {
-        return text.split('\n\n').map((segment, index) => (
+        return text.split('\n').map((segment, index) => (
             <Typography key={index} variant="body1" color="text.secondary" paragraph sx={{ mb: 2 }}>
                 {segment}
             </Typography>

@@ -26,7 +26,7 @@ const KanjiCard = ({kanjiInfo}) => {
     return (
         <Box>
             {kanjiInfo.map((item, index) => {
-                const {kanji, on_reading, kun_reading, meaning, examples, components, koohii1, koohii2} = item.kanji;
+                const {kanji, on_reading, kun_reading, meaning, examples, components} = item.kanji;
                 const kanjiImage = item;
                 const isRendered = renderedKanji[kanji];
 

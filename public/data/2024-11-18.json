@@ -434,7 +434,7 @@
     },
     {
       "grammar": {
-        "grammar": "に対して（にたいして）",
+        "grammar": "に対して",
         "meaning": "towards; against; regarding; in contrast with ~",
         "seen": false,
         "update_date": ""
@@ -586,10 +586,13 @@
     ]
   },
   "song": {
-    "id": null,
-    "style": "",
+    "id": [
+      "83b3ac7e-a1fa-4c74-ac51-afb03c556a0f",
+      "efd84528-ec82-4713-a996-756d841f848e"
+    ],
+    "style": "Soul, Gospel, Powerful, female vocals",
     "song_lyrics": {
-      "lyrics_japanese": "十(じゅう)まで数(かぞ)えることを目指す、\n指導員(しどういん)の指導(しどう)を受けて、\n数字(すうじ)を一つずつ数(かず)える、\n目標(もくひょう)に向かって頑張(がんば)る。\n\n数(すう)人(にん)が周(まわ)りにいる、\n人数(にんずう)はたくさん、\n快適(かいてき)な小屋(こや)の中で、\n何と(なんと)か一緒に学ぶ。\n\n自然(しぜん)の音(おと)を数(かぞ)える、\n生(なま)チ(ち)ーズはご褒美(ほうび)、\n学習(がくしゅう)のサポートをするために、\n借金(しゃっきん)はない、ただ喜び(よろこび)。\n\n数字(すうじ)を指(さ)す、\n数(かず)多くの数字(すうじ)を学ぶ、\n発展(はってん)を目指す、\n指導員(しどういん)の助け(たすけ)で。\n\n車(くるま)の数(かず)を数(かぞ)える、\n電気自動車(でんきじどうしゃ)が見える、\n理解(りかい)するために、\n物事(ものごと)の量(りょう)を。\n\n数(かぞ)えることを学び、頑張(がんば)ることを学ぶ、\n指導(しどう)が与(あた)えられ、成功(せいこう)するために、\nあらゆる困難(こんなん)に逆ら(さから)って、成功(せいこう)する、\n今の目標(もくひょう)を、超(こ)える。",
+      "lyrics_japanese": "十まで数えることを目指す、\n指導員の指導を受けて、\n数字を一つずつ数える、\n目標に向かって頑張る。\n\n数人が周りにいる、\n人数はたくさん、\n快適な小屋の中で、\n何とか一緒に学ぶ。\n\n自然の音を数える、\n生チーズはご褒美、\n学習のサポートをするために、\n借金はない、ただ喜び。\n\n数字を指す、\n数多くの数字を学ぶ、\n発展を目指す、\n指導員の助けで。\n\n車の数を数える、\n電気自動車が見える、\n理解するために、\n物事の量を。\n\n数えることを学び、頑張ることを学ぶ、\n指導が与えられ、成功するために、\nあらゆる困難に逆らって、成功する、\n今の目標を、超える。",
       "lyrics_english_translation": "I aim to count to ten, \nWith the instructor's guidance,\nLearning numbers, one by one,\nTowards my goal, I strive.\n\nSeveral people are around,\nThe number of people is great,\nIn this pleasant cabin,\nWe learn, somehow together. \n\nCounting the sounds of nature,\nFresh cheese is the treat,\nTo support our learning journey,\nNo debts here, just good cheer.\n\nI point to the numerals,\nSeveral digits to learn,\nAiming for development,\nWith the instructor's help.\n\nWe count the number of cars,\nElectric vehicles in view,\nIn order to understand,\nThe quantity of all things.\n\nWe learn to count, we learn to strive, \nGuidance is given, to thrive,\nAgainst all odds, we succeed,\nOur goals for now, we exceed.",
       "song_title": "数える歌"
     }
