@@ -245,7 +245,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "My grandfather broke his leg last year.",
+          "sentence_japanese": "去年、おじいちゃんは足を骨折しました。"
+        },
+        {
+          "sentence_english_translation": "The doctor said that the fracture is healing well.",
+          "sentence_japanese": "医者は骨折は順調に治癒していると述べました。"
+        },
+        {
+          "sentence_english_translation": "She fell from the tree and suffered a broken arm.",
+          "sentence_japanese": "彼女は木から落ちて腕を骨折しました。"
+        },
+        {
+          "sentence_english_translation": "He had a broken bone in his hand after the accident.",
+          "sentence_japanese": "事故の後、彼は手に骨折をしました。"
+        },
+        {
+          "sentence_english_translation": "The athlete was sidelined for six months due to a broken collarbone.",
+          "sentence_japanese": "その選手は鎖骨を骨折したため、6ヶ月間欠場しました。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -255,7 +276,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The number of students in the class is 20.",
+          "sentence_japanese": "クラスの生徒の数字は20です。"
+        },
+        {
+          "sentence_english_translation": "Please write the number 5 on the paper.",
+          "sentence_japanese": "紙に数字の5を書いてください。"
+        },
+        {
+          "sentence_english_translation": "What is the next number in this sequence?",
+          "sentence_japanese": "この数列の次の数字は何ですか？"
+        },
+        {
+          "sentence_english_translation": "I can count to 100; I know all the numbers.",
+          "sentence_japanese": "100まで数えられます。数字は全部知っています。"
+        },
+        {
+          "sentence_english_translation": "The house number is 123.",
+          "sentence_japanese": "家の数字は123です。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -265,7 +307,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I aim for a high score on the exam.",
+          "sentence_japanese": "試験で高い点数を目指します。"
+        },
+        {
+          "sentence_english_translation": "He aims for a promotion this year.",
+          "sentence_japanese": "彼は今年昇進を目指しています。"
+        },
+        {
+          "sentence_english_translation": "She aims for a better future for her children.",
+          "sentence_japanese": "彼女は子供たちのより良い未来を目指しています。"
+        },
+        {
+          "sentence_english_translation": "We aim for a peaceful resolution to the conflict.",
+          "sentence_japanese": "私たちは平和的な解決を目指します。"
+        },
+        {
+          "sentence_english_translation": "They aim for perfection in their work.",
+          "sentence_japanese": "彼らは仕事に完璧を目指します。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -275,7 +338,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The teacher pointed at the board with a stick.",
+          "sentence_japanese": "先生は棒で黒板を指した。"
+        },
+        {
+          "sentence_english_translation": "Please point to the correct answer on the test.",
+          "sentence_japanese": "テストで正しい答えを指してください。"
+        },
+        {
+          "sentence_english_translation": "The arrow points north.",
+          "sentence_japanese": "矢印は北を指している。"
+        },
+        {
+          "sentence_english_translation": "Can you point out the station on the map?",
+          "sentence_japanese": "地図で駅を指していただけますか？"
+        },
+        {
+          "sentence_english_translation": "I pointed to the picture and explained it.",
+          "sentence_japanese": "私は絵を指して説明した。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -285,7 +369,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The number of students in the class is 20.",
+          "sentence_japanese": "クラスの生徒の数は20人です。"
+        },
+        {
+          "sentence_english_translation": "I counted the number of apples and there are 5.",
+          "sentence_japanese": "リンゴの数を数えたら、5個ありました。"
+        },
+        {
+          "sentence_english_translation": "The number of books on the shelf is amazing.",
+          "sentence_japanese": "棚の本の数はすごいです。"
+        },
+        {
+          "sentence_english_translation": "What is the number of people attending the party?",
+          "sentence_japanese": "パーティーに参加する人の数はいくつですか？"
+        },
+        {
+          "sentence_english_translation": "Please tell me the number of days in this month.",
+          "sentence_japanese": "今月の日はいくつですか？"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -295,7 +400,48 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I heard some strange sounds from outside.",
+          "sentence_japanese": "外から変な物音がきこえた"
+        },
+        {
+          "sentence_english_translation": "What was that sound?",
+          "sentence_japanese": "あの物音は何だったのですか"
+        },
+        {
+          "sentence_english_translation": "The sounds of the city kept me awake.",
+          "sentence_japanese": "街の物音がうるさくて眠れなかった"
+        },
+        {
+          "sentence_english_translation": "There were no sounds; it was very quiet.",
+          "sentence_japanese": "物音は何もなくて、とても静かだった"
+        },
+        {
+          "sentence_english_translation": "I was scared by the sudden sounds.",
+          "sentence_japanese": "急に物音がしてこわかった"
+        },
+        {
+          "sentence_english_translation": "The creaking sounds came from the old house.",
+          "sentence_japanese": "古い家からギシギシという物音がした"
+        },
+        {
+          "sentence_english_translation": "She listened carefully for any sounds.",
+          "sentence_japanese": "彼女は物音がしないか注意深く聞いていた"
+        },
+        {
+          "sentence_english_translation": "The small sounds of the insects filled the night.",
+          "sentence_japanese": "虫の小さな物音が夜を満たしていた"
+        },
+        {
+          "sentence_english_translation": "He couldn't sleep because of the constant sounds.",
+          "sentence_japanese": "彼は物音が絶えなくて眠れなかった"
+        },
+        {
+          "sentence_english_translation": "Try to make less sounds.",
+          "sentence_japanese": "物音を少なくするようにしてください"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -305,7 +451,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "This room is comfortable and warm.",
+          "sentence_japanese": "この部屋は快適で暖かいです。"
+        },
+        {
+          "sentence_english_translation": "I want to live in a comfortable house.",
+          "sentence_japanese": "快適な家に住みたいです。"
+        },
+        {
+          "sentence_english_translation": "The hotel had comfortable beds.",
+          "sentence_japanese": "そのホテルは快適なベッドがありました。"
+        },
+        {
+          "sentence_english_translation": "I had a comfortable trip.",
+          "sentence_japanese": "快適な旅行でした。"
+        },
+        {
+          "sentence_english_translation": "Comfortable shoes are important for walking.",
+          "sentence_japanese": "快適な靴は、歩くのに大切です。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -315,7 +482,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I received the money for the part-time job.",
+          "sentence_japanese": "アルバイトの金銭を受け取りました。"
+        },
+        {
+          "sentence_english_translation": "He doesn't have enough money to buy that.",
+          "sentence_japanese": "彼はそれを買うだけの金銭がありません。"
+        },
+        {
+          "sentence_english_translation": "The cost of the trip was a significant amount of money.",
+          "sentence_japanese": "旅行の費用はかなりの金銭でした。"
+        },
+        {
+          "sentence_english_translation": "She saved her money to buy a new bicycle.",
+          "sentence_japanese": "彼女は新しい自転車を買うために金銭を貯めました。"
+        },
+        {
+          "sentence_english_translation": "Managing your money is important.",
+          "sentence_japanese": "金銭の管理は大切です。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -325,7 +513,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "Somehow, I finished all my homework.",
+          "sentence_japanese": "何とか宿題を全部終えました。"
+        },
+        {
+          "sentence_english_translation": "I want to pass the exam somehow.",
+          "sentence_japanese": "何とか試験に合格したいです。"
+        },
+        {
+          "sentence_english_translation": "Somehow, I managed to get to the station on time.",
+          "sentence_japanese": "何とか駅に時間通りに着きました。"
+        },
+        {
+          "sentence_english_translation": "Please lend me some money somehow.",
+          "sentence_japanese": "何とかお金を貸してください。"
+        },
+        {
+          "sentence_english_translation": "I will somehow find a solution.",
+          "sentence_japanese": "何とか解決策を見つけます。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -335,7 +544,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The company provides support for its employees' career development.",
+          "sentence_japanese": "会社は従業員のキャリア開発をサポートします。"
+        },
+        {
+          "sentence_english_translation": "My friend gave me support when I was having a hard time.",
+          "sentence_japanese": "大変な時に友達がサポートしてくれました。"
+        },
+        {
+          "sentence_english_translation": "This software offers excellent technical support.",
+          "sentence_japanese": "このソフトウェアは優れた技術サポートを提供します。"
+        },
+        {
+          "sentence_english_translation": "I need your support to finish this project.",
+          "sentence_japanese": "このプロジェクトを完成させるにはあなたのサポートが必要です。"
+        },
+        {
+          "sentence_english_translation": "The teacher gave students support with their studies.",
+          "sentence_japanese": "先生は生徒たちの勉強をサポートしました。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -345,7 +575,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I ate a raw fish.",
+          "sentence_japanese": "私は生魚を食べました。"
+        },
+        {
+          "sentence_english_translation": "This is a fresh salad.",
+          "sentence_japanese": "これは生のサラダです。"
+        },
+        {
+          "sentence_english_translation": "He likes to eat raw vegetables.",
+          "sentence_japanese": "彼は生の野菜が好きです。"
+        },
+        {
+          "sentence_english_translation": "The chef uses fresh ingredients.",
+          "sentence_japanese": "料理人は生の材料を使います。"
+        },
+        {
+          "sentence_english_translation": "She avoids eating raw meat.",
+          "sentence_japanese": "彼女は生の肉を食べるのを避けます。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -355,7 +606,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "There is a small hut by the river.",
+          "sentence_japanese": "川に小さな小屋があります。"
+        },
+        {
+          "sentence_english_translation": "The garden shed is full of tools.",
+          "sentence_japanese": "物置小屋には道具がいっぱいです。"
+        },
+        {
+          "sentence_english_translation": "He lives in a mountain hut.",
+          "sentence_japanese": "彼は山小屋に住んでいます。"
+        },
+        {
+          "sentence_english_translation": "A bird built a nest in the hut.",
+          "sentence_japanese": "小屋に鳥が巣を作りました。"
+        },
+        {
+          "sentence_english_translation": "Let's have a picnic near the hut.",
+          "sentence_japanese": "小屋の近くでピクニックをしましょう。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -365,7 +637,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "My friend bought a new electric car.",
+          "sentence_japanese": "友達は新しい電気自動車を買いました。"
+        },
+        {
+          "sentence_english_translation": "The electric car is very quiet.",
+          "sentence_japanese": "電気自動車はとても静かです。"
+        },
+        {
+          "sentence_english_translation": "He wants to buy an electric car next year.",
+          "sentence_japanese": "彼は来年電気自動車を買いたいと思っています。"
+        },
+        {
+          "sentence_english_translation": "Electric cars are becoming more popular.",
+          "sentence_japanese": "電気自動車は人気が出てきています。"
+        },
+        {
+          "sentence_english_translation": "That electric car is expensive.",
+          "sentence_japanese": "あの電気自動車は高いです。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -375,7 +668,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The city's economy shows a remarkable development.",
+          "sentence_japanese": "街の経済は目覚ましい発展を見せています。"
+        },
+        {
+          "sentence_english_translation": "This company's development of new products is impressive.",
+          "sentence_japanese": "この会社の新製品開発はすごいですね。"
+        },
+        {
+          "sentence_english_translation": "The development of technology is very fast.",
+          "sentence_japanese": "技術の発展はとても速いです。"
+        },
+        {
+          "sentence_english_translation": "The country is focusing on the development of tourism.",
+          "sentence_japanese": "その国は観光の発展に力を入れています。"
+        },
+        {
+          "sentence_english_translation": "For the development of our business, we need more employees.",
+          "sentence_japanese": "事業の発展のためには、もっと従業員が必要です。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -385,7 +699,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I have a large debt from when I bought my car.",
+          "sentence_japanese": "車は高いので、借金が多いです。"
+        },
+        {
+          "sentence_english_translation": "He is paying off his debt little by little.",
+          "sentence_japanese": "彼は少しずつ借金を返済しています。"
+        },
+        {
+          "sentence_english_translation": "She took out a loan to start her business.",
+          "sentence_japanese": "彼女は事業を始めるために借金しました。"
+        },
+        {
+          "sentence_english_translation": "They are worried about their increasing debt.",
+          "sentence_japanese": "彼らは増える借金に心配しています。"
+        },
+        {
+          "sentence_english_translation": "My debt is a big burden for me.",
+          "sentence_japanese": "私の借金は大きな負担です。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -395,7 +730,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I ate a cheese sandwich for lunch.",
+          "sentence_japanese": "お昼にチーズサンドイッチを食べました。"
+        },
+        {
+          "sentence_english_translation": "There is cheese in the refrigerator.",
+          "sentence_japanese": "冷蔵庫にチーズがあります。"
+        },
+        {
+          "sentence_english_translation": "This pizza has a lot of cheese.",
+          "sentence_japanese": "このピザにはチーズがたくさんあります。"
+        },
+        {
+          "sentence_english_translation": "My cat likes cheese.",
+          "sentence_japanese": "私の猫はチーズが好きです。"
+        },
+        {
+          "sentence_english_translation": "She put cheese on the pasta.",
+          "sentence_japanese": "彼女はパスタにチーズをかけました。"
+        }
+      ]
     }
   ],
   "grammar_info": [
