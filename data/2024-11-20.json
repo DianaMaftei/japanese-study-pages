@@ -402,24 +402,24 @@
       },
       "sentences": [
         {
-          "sentence_japanese": "この方法は非常に効果的です。",
-          "sentence_english_translation": "This method is very effective."
+          "sentence_japanese": "実験の結果はどうですか？",
+          "sentence_english_translation": "What is the result of the experiment?"
         },
         {
-          "sentence_japanese": "その薬は効果的な結果がありました。",
-          "sentence_english_translation": "The medicine had an effective result."
+          "sentence_japanese": "結果は成功でした。",
+          "sentence_english_translation": "The result was a success."
         },
         {
-          "sentence_japanese": "運動はダイエットに効果的です。",
-          "sentence_english_translation": "Exercise is effective for losing weight."
+          "sentence_japanese": "試合の結果は引き分けでした。",
+          "sentence_english_translation": "The result of the game was a tie."
         },
         {
-          "sentence_japanese": "彼の勉強方法は非常に効果的です。",
-          "sentence_english_translation": "His study method is very effective."
+          "sentence_japanese": "検査の結果は良好です。",
+          "sentence_english_translation": "The test result is good."
         },
         {
-          "sentence_japanese": "新しいマーケティング戦略は効果的です。",
-          "sentence_english_translation": "The new marketing strategy is effective."
+          "sentence_japanese": "私はその結果に満足しています。",
+          "sentence_english_translation": "I am happy with the result."
         }
       ]
     },
@@ -433,24 +433,24 @@
       },
       "sentences": [
         {
-          "sentence_japanese": "この方法は非常に効果的です。",
-          "sentence_english_translation": "This method is very effective."
+          "sentence_english_translation": "The end of the year is busy for me.",
+          "sentence_japanese": "年末（ねんまつ）は私（わたし）は忙しい（いそがしい）です"
         },
         {
-          "sentence_japanese": "その薬は効果的な結果がありました。",
-          "sentence_english_translation": "The medicine had an effective result."
+          "sentence_english_translation": "At the tip of the mountain, there is a small shrine.",
+          "sentence_japanese": "山の（やまの）すえに、小さな（ちいさな）神社（じんじゃ）があります"
         },
         {
-          "sentence_japanese": "運動はダイエットに効果的です。",
-          "sentence_english_translation": "Exercise is effective for losing weight."
+          "sentence_english_translation": "I wrote my name at the end of the report.",
+          "sentence_japanese": "私はレポートのすえに名前（なまえ）を書きました"
         },
         {
-          "sentence_japanese": "彼の勉強方法は非常に効果的です。",
-          "sentence_english_translation": "His study method is very effective."
+          "sentence_english_translation": "Please write your address at the end of the form.",
+          "sentence_japanese": "用紙（ようし）のすえに住所（じゅうしょ）を書いてください"
         },
         {
-          "sentence_japanese": "新しいマーケティング戦略は効果的です。",
-          "sentence_english_translation": "The new marketing strategy is effective."
+          "sentence_english_translation": "The end of the movie was very touching.",
+          "sentence_japanese": "映画（えいが）のすえはとても感動的（かんどうてき）でした"
         }
       ]
     },
