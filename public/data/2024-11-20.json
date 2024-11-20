@@ -245,7 +245,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "未来を楽しみにしています。",
+          "sentence_english_translation": "I'm looking forward to the future."
+        },
+        {
+          "sentence_japanese": "未来は不確実です。",
+          "sentence_english_translation": "The future is uncertain."
+        },
+        {
+          "sentence_japanese": "将来は何をしたいですか？",
+          "sentence_english_translation": "What do you want to do in the future?"
+        },
+        {
+          "sentence_japanese": "明るい未来を願っています。",
+          "sentence_english_translation": "I hope for a bright future."
+        },
+        {
+          "sentence_japanese": "未来にはたくさんの可能性があります。",
+          "sentence_english_translation": "The future is full of possibilities."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -255,7 +276,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "この方法は非常に効果的です。",
+          "sentence_english_translation": "This method is very effective."
+        },
+        {
+          "sentence_japanese": "その薬は効果的な結果がありました。",
+          "sentence_english_translation": "The medicine had an effective result."
+        },
+        {
+          "sentence_japanese": "運動はダイエットに効果的です。",
+          "sentence_english_translation": "Exercise is effective for losing weight."
+        },
+        {
+          "sentence_japanese": "彼の勉強方法は非常に効果的です。",
+          "sentence_english_translation": "His study method is very effective."
+        },
+        {
+          "sentence_japanese": "新しいマーケティング戦略は効果的です。",
+          "sentence_english_translation": "The new marketing strategy is effective."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -265,7 +307,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "これは粗末なテーブルです。",
+          "sentence_english_translation": "This is a crudely made table."
+        },
+        {
+          "sentence_japanese": "その家は粗末な状態です。",
+          "sentence_english_translation": "The house is in a shabby state."
+        },
+        {
+          "sentence_japanese": "彼は粗末な説明をしました。",
+          "sentence_english_translation": "He gave a crude explanation."
+        },
+        {
+          "sentence_japanese": "その仕事は粗末なやり方でした。",
+          "sentence_english_translation": "The work was done in a rough manner."
+        },
+        {
+          "sentence_japanese": "この貴重なものをそんなに粗末に扱わないでください！",
+          "sentence_english_translation": "Don't treat this valuable thing so roughly!"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -275,7 +338,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "この学期はもうすぐ終わります。",
+          "sentence_english_translation": "This school term is almost over."
+        },
+        {
+          "sentence_japanese": "来週から学期が始まります。",
+          "sentence_english_translation": "The school term starts next week."
+        },
+        {
+          "sentence_japanese": "今学期は何の授業がありますか？",
+          "sentence_english_translation": "What classes do you have this school term?"
+        },
+        {
+          "sentence_japanese": "今学期は一生懸命勉強しています。",
+          "sentence_english_translation": "I'm studying hard this school term."
+        },
+        {
+          "sentence_japanese": "学期は非常に忙しいです。",
+          "sentence_english_translation": "The school term is very busy."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -285,7 +369,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "年末は忙しいです。",
+          "sentence_english_translation": "I'm busy at the end of the year."
+        },
+        {
+          "sentence_japanese": "年末にパーティーをします。",
+          "sentence_english_translation": "We have a party at the end of the year."
+        },
+        {
+          "sentence_japanese": "年末には多くの人が旅行します。",
+          "sentence_english_translation": "Many people travel at the end of the year."
+        },
+        {
+          "sentence_japanese": "年末が近づいています。",
+          "sentence_english_translation": "The end of the year is coming soon."
+        },
+        {
+          "sentence_japanese": "年末が楽しみです。",
+          "sentence_english_translation": "I'm looking forward to the end of the year."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -295,7 +400,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "実験の結果はどうですか？",
+          "sentence_english_translation": "What is the result of the experiment?"
+        },
+        {
+          "sentence_japanese": "結果は成功でした。",
+          "sentence_english_translation": "The result was a success."
+        },
+        {
+          "sentence_japanese": "試合の結果は引き分けでした。",
+          "sentence_english_translation": "The result of the game was a tie."
+        },
+        {
+          "sentence_japanese": "検査の結果は良好です。",
+          "sentence_english_translation": "The test result is good."
+        },
+        {
+          "sentence_japanese": "私はその結果に満足しています。",
+          "sentence_english_translation": "I am happy with the result."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -305,7 +431,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The end of the year is busy for me.",
+          "sentence_japanese": "年末（ねんまつ）は私（わたし）は忙しい（いそがしい）です"
+        },
+        {
+          "sentence_english_translation": "At the tip of the mountain, there is a small shrine.",
+          "sentence_japanese": "山の（やまの）すえに、小さな（ちいさな）神社（じんじゃ）があります"
+        },
+        {
+          "sentence_english_translation": "I wrote my name at the end of the report.",
+          "sentence_japanese": "私はレポートのすえに名前（なまえ）を書きました"
+        },
+        {
+          "sentence_english_translation": "Please write your address at the end of the form.",
+          "sentence_japanese": "用紙（ようし）のすえに住所（じゅうしょ）を書いてください"
+        },
+        {
+          "sentence_english_translation": "The end of the movie was very touching.",
+          "sentence_japanese": "映画（えいが）のすえはとても感動的（かんどうてき）でした"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -315,7 +462,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "私は短期的な目標が必要です。",
+          "sentence_english_translation": "I need a short-term goal."
+        },
+        {
+          "sentence_japanese": "これは短期的な計画です。",
+          "sentence_english_translation": "This is a short-term plan."
+        },
+        {
+          "sentence_japanese": "短期的な苦痛は長期的な利益のためです。",
+          "sentence_english_translation": "Short-term pain for long-term gain."
+        },
+        {
+          "sentence_japanese": "そのプロジェクトは短期的な締め切りがあります。",
+          "sentence_english_translation": "The project has a short-term deadline."
+        },
+        {
+          "sentence_japanese": "私たちは短期的な解決策が必要です。",
+          "sentence_english_translation": "We need a short-term solution."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -325,7 +493,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "私たちは長期的な解決策が必要です。",
+          "sentence_english_translation": "We need a long-term solution."
+        },
+        {
+          "sentence_japanese": "これは長期的なプロジェクトです。",
+          "sentence_english_translation": "This is a long-term project."
+        },
+        {
+          "sentence_japanese": "彼は長期的な目標を持っています。",
+          "sentence_english_translation": "He has a long-term goal."
+        },
+        {
+          "sentence_japanese": "長期的な計画が重要です。",
+          "sentence_english_translation": "Long-term planning is important."
+        },
+        {
+          "sentence_japanese": "会社は長期的なビジョンが必要です。",
+          "sentence_english_translation": "The company needs a long-term vision."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -335,7 +524,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "彼には高い期待をしています。",
+          "sentence_english_translation": "I have high expectations for him."
+        },
+        {
+          "sentence_japanese": "期待値は非常に高いです。",
+          "sentence_english_translation": "The expectation is very high."
+        },
+        {
+          "sentence_japanese": "その映画は私の期待を超えました。",
+          "sentence_english_translation": "The movie exceeded my expectations."
+        },
+        {
+          "sentence_japanese": "私は将来に大きな期待を持っています。",
+          "sentence_english_translation": "I have great expectations for the future."
+        },
+        {
+          "sentence_japanese": "私の期待は満たされませんでした。",
+          "sentence_english_translation": "My expectations were not met."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -345,7 +555,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "コンサートが延期されました。",
+          "sentence_english_translation": "The concert has been postponed."
+        },
+        {
+          "sentence_japanese": "会議が来週に延期されました。",
+          "sentence_english_translation": "The meeting has been postponed until next week."
+        },
+        {
+          "sentence_japanese": "雨のために試合が延期されました。",
+          "sentence_english_translation": "Due to the rain, the game was postponed."
+        },
+        {
+          "sentence_japanese": "締め切りが延期されました。",
+          "sentence_english_translation": "The deadline has been postponed."
+        },
+        {
+          "sentence_japanese": "私はその決定を延期したいです。",
+          "sentence_english_translation": "I want to postpone the decision."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -355,7 +586,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_japanese": "今週末はゆっくり休みたい。",
+          "sentence_english_translation": "I want to relax this weekend."
+        },
+        {
+          "sentence_japanese": "今週末の予定は？",
+          "sentence_english_translation": "What are your plans for the weekend?"
+        },
+        {
+          "sentence_japanese": "今週末は旅行に行きます。",
+          "sentence_english_translation": "We will travel this weekend."
+        },
+        {
+          "sentence_japanese": "今週末は忙しいです。",
+          "sentence_english_translation": "I'm busy this weekend."
+        },
+        {
+          "sentence_japanese": "週末が楽しみです。",
+          "sentence_english_translation": "I'm looking forward to the weekend."
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -365,7 +617,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "My friend's personality is very cheerful.",
+          "sentence_japanese": "友達の性格はとても明るい。"
+        },
+        {
+          "sentence_english_translation": "He has a kind personality.",
+          "sentence_japanese": "彼は優しい性格です。"
+        },
+        {
+          "sentence_english_translation": "Her personality is quite serious.",
+          "sentence_japanese": "彼女の性格は結構真面目です。"
+        },
+        {
+          "sentence_english_translation": "What is your sister's personality like?",
+          "sentence_japanese": "お姉さんの性格はどうですか？"
+        },
+        {
+          "sentence_english_translation": "I think his personality changed after the trip.",
+          "sentence_japanese": "旅行の後、彼の性格は変わったと思います。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -375,7 +648,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "In the unlikely event of a typhoon, the school will be closed.",
+          "sentence_japanese": "台風が万が一来たら、学校は休みです。"
+        },
+        {
+          "sentence_english_translation": "In the worst case, we might miss the train.",
+          "sentence_japanese": "万が一、電車に乗り遅れるかもしれません。"
+        },
+        {
+          "sentence_english_translation": "Please contact us immediately in the unlikely event of an emergency.",
+          "sentence_japanese": "万が一、緊急事態になったら、すぐに連絡してください。"
+        },
+        {
+          "sentence_english_translation": "I brought an umbrella, just in case, in the unlikely event it rains.",
+          "sentence_japanese": "万が一雨が降ったらと思って、傘を持ってきました。"
+        },
+        {
+          "sentence_english_translation": "In the worst case scenario, we can always cancel the trip.",
+          "sentence_japanese": "万が一、最悪の事態になったら、旅行はキャンセルできます。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -385,7 +679,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "I'm sorry to cause you inconvenience, but the train is delayed.",
+          "sentence_japanese": "電車が遅れていて、大変ご不便をおかけしてすみません。"
+        },
+        {
+          "sentence_english_translation": "Renovations are causing inconvenience to our customers. We apologize.",
+          "sentence_japanese": "改修工事で、お客様にはご不便をおかけして申し訳ございません。"
+        },
+        {
+          "sentence_english_translation": "I apologize for any inconvenience this may cause.",
+          "sentence_japanese": "これによってご不便をおかけするかもしれませんが、申し訳ありません。"
+        },
+        {
+          "sentence_english_translation": "We are working to minimize the inconvenience.",
+          "sentence_japanese": "ご不便を最小限に抑えるよう努力しています。"
+        },
+        {
+          "sentence_english_translation": "The traffic jam caused a lot of inconvenience.",
+          "sentence_japanese": "渋滞でたくさんのご不便をおかけしました。"
+        }
+      ]
     },
     {
       "vocabulary": {
@@ -395,7 +710,28 @@
         "seen": false,
         "update_date": ""
       },
-      "sentences": null
+      "sentences": [
+        {
+          "sentence_english_translation": "The store's business hours are from 10 am to 6 pm.",
+          "sentence_japanese": "その店の営業時間は午前10時から午後6時です。"
+        },
+        {
+          "sentence_english_translation": "Please check the business hours before you go to the restaurant.",
+          "sentence_japanese": "レストランに行く前に、営業時間を確認してください。"
+        },
+        {
+          "sentence_english_translation": "What are the business hours of this library?",
+          "sentence_japanese": "この図書館の営業時間はなんですか？"
+        },
+        {
+          "sentence_english_translation": "The business hours are posted on the door.",
+          "sentence_japanese": "営業時間はドアに貼ってあります。"
+        },
+        {
+          "sentence_english_translation": "The business hours changed last month.",
+          "sentence_japanese": "先月、営業時間が変わりました。"
+        }
+      ]
     }
   ],
   "grammar_info": [
@@ -578,8 +914,11 @@
     ]
   },
   "song": {
-    "id": null,
-    "style": "",
+    "id": [
+      "f22b22af-33bc-45f9-a38a-19967e77652e",
+      "277a13f1-7f32-4156-8ace-2ec5fc618509"
+    ],
+    "style": "1940s big band,  Lounge Singer,  male vocals",
     "song_lyrics": {
       "lyrics_japanese": "短期の目標、長期の夢、\n学期末、新たな期間が始まる。\n未来を築き、効果的に明るく、\n精一杯期待して頑張るよ。\n\n週末の予定、たてたてで、\n最中に心が揺らいだ。\n万が一延期になっても、\n乗り越えていく、きっと大丈夫。\n\nこの短期のプロジェクト、粗末だけど、\n結果は最高になるはずさ。\n長期的な計画は得意分野、\n成功の末、見てみせるよ。\n\n年末には、振り返って見るわ、\n期待通りになったかどうか。\n時期は今、季節はちょうどいい、\n輝く未来に向かって頑張る。\n\nこの期間の末、新しい光がさす、\n不便をかけるけど頑張るよ。\n私の性格、強く、真実で、\n営業時間中は、仕事に取り組む。",
       "lyrics_english_translation": "Short-term goals, long-term dreams,\nThe semester ends, a new period begins.\nBuilding a future, effective and bright,\nHoping for the best, with all my might.\n\nWeekend plans, hastily made,\nIn the middle of the week, my heart swayed.\nIn the unlikely event of a delay,\nI'll overcome, come what may.\n\nThis short-term project, crudely done,\nBut the end result will be second to none.\nLong-term planning is my forte,\nThe tip of success, I will see, and I will retort.\n\nAt the year's end, I'll reflect and see,\nIf my expectations have come to be.\nThe time is now, the season's right,\nTo work towards a future, shining bright.\n\nThe end of this period brings new light,\nDespite any inconvenience, I will fight.\nMy personality, strong and true,\nDuring business hours, my work I'll pursue.",

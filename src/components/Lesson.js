@@ -49,7 +49,8 @@ const Lesson = () => {
                     <Tabs
                         value={currentTab}
                         onChange={handleTabChange}
-                        variant="fullWidth"
+                        variant="scrollable"
+                        scrollButtons="auto"
                         aria-label="Japanese learning sections"
                     >
                         <Tab label="Kanji" />
