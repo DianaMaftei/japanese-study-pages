@@ -1,17 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import {
-    Box,
-    Card,
-    CardContent,
-    Typography,
-    Paper,
-    IconButton,
-    Snackbar,
-    Alert
-} from '@mui/material';
-import { Carousel } from 'react-responsive-carousel';
+import React, {useEffect, useState} from 'react';
+import {Alert, Box, Card, CardContent, IconButton, Paper, Snackbar, Typography} from '@mui/material';
+import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { VolumeUp } from '@mui/icons-material';
+import {VolumeUp} from '@mui/icons-material';
 import JapaneseSpeechSynthesizer from '../../utils/JapaneseSpeechSynthesizer';
 
 const GrammarCard = ({ grammarInfo }) => {
@@ -46,9 +37,7 @@ const GrammarCard = ({ grammarInfo }) => {
             for (const item of grammarInfo) {
                 const { grammar } = item;
                 const folderName = grammar.grammar.replace(/ /g, '_');
-                console.log(folderName);
-                const imagesInFolder = getImagesFromFolder(folderName);
-                imagesObj[folderName] = imagesInFolder;
+                imagesObj[folderName] = getImagesFromFolder(folderName);
             }
             setImages(imagesObj);
         };
@@ -58,13 +47,12 @@ const GrammarCard = ({ grammarInfo }) => {
 
     const getImagesFromFolder = (folderName) => {
         const imagesContext = require.context('../../../public/images/grammar', true, /\.(png|jpe?g)$/);
-        const folderImages = imagesContext.keys()
+        return imagesContext.keys()
             .filter(key => {
                 const folderPath = key.split('/').slice(1, -1).join('/');
                 return folderPath === folderName;
             })
             .map(key => imagesContext(key));
-        return folderImages;
     };
 
     const handleImageClick = (imageName) => {

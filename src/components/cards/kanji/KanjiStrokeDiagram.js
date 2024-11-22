@@ -36,9 +36,13 @@ const KanjiStrokeDiagram = ({ character, id }) => {
     const handlePrevious = () => dmakRef.current?.eraseLastStrokes(1);
     const handlePause = () => dmakRef.current?.pause();
     const handlePlay = () => dmakRef.current?.render();
-    const handleReplay = () => dmakRef.current?.erase();
     const handleNext = () => dmakRef.current?.renderNextStrokes(1);
-
+    const handleReplay = () => {
+        dmakRef.current?.erase();
+        setTimeout(() => {
+            dmakRef.current?.render();
+        }, 1000);
+    };
     return (
         <div className="k-kanji">
             <div id={id} ref={kanjiDrawRef} />

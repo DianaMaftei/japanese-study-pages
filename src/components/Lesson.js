@@ -53,12 +53,13 @@ const Lesson = () => {
                         scrollButtons="auto"
                         aria-label="Japanese learning sections"
                     >
-                        <Tab label="Kanji" />
-                        <Tab label="Vocabulary" />
-                        <Tab label="Grammar" />
-                        <Tab label="Reading" />
-                        <Tab label="Listening" />
-                        <Tab label="Quiz" />
+                        <Tab label="Kanji" sx={{ flexGrow: 1 }} />
+                        <Tab label="Vocabulary" sx={{ flexGrow: 1 }} />
+                        <Tab label="Grammar" sx={{ flexGrow: 1 }} />
+                        <Tab label="Reading" sx={{ flexGrow: 1 }} />
+                        <Tab label="Listening" sx={{ flexGrow: 1 }} />
+                        <Tab label="Quiz" sx={{ flexGrow: 1 }} />
+
                     </Tabs>
                 </Box>
 
